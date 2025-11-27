@@ -1,239 +1,169 @@
-<!DOCTYPE HTML>
-<!--
-	Arcana by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Arcana by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
-		<div id="page-wrapper">
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Festival de Musique Classique en Bretagne - Concerts gratuits près de la Côte de Granit Rose">
+  <meta name="theme-color" content="#1e3a5f">
+  <title>Festival de Musique Classique en Bretagne</title>
+  <!-- Updated CSS path to css/ folder -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+  
+  <header class="header">
+    <nav class="nav-container" role="navigation" aria-label="Navigation principale">
+      <a href="index.html" class="logo" aria-label="Retour à l'accueil">
+        <span class="logo-text">Festival de Musique Classique</span>
+      </a>
+      
+      <button class="mobile-menu-button" id="mobile-menu-button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Menu de navigation">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+      
+      <ul class="nav-links" id="mobile-menu">
+        <li><a href="index.html" class="nav-link active" aria-current="page">Accueil</a></li>
+        <li><a href="programme.html" class="nav-link">Programme</a></li>
+        <li><a href="artistes.html" class="nav-link">Artistes</a></li>
+        <li><a href="galerie.html" class="nav-link">Galerie</a></li>
+        <li><a href="partenaires.html" class="nav-link">Partenaires</a></li>
+        <li><a href="mentions-legales.html" class="nav-link">Mentions Légales</a></li>
+      </ul>
+    </nav>
+  </header>
 
-			<!-- Header -->
-				<div id="header">
+  <main id="main-content">
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">Festival de Musique Classique</h1>
+        <p class="hero-subtitle">Bretagne - Côte de Granit Rose</p>
+        <p class="hero-description">
+          Découvrez la beauté de la musique classique dans un cadre exceptionnel. 
+          Des concerts gratuits tout l'été dans les plus beaux lieux de Bretagne.
+        </p>
+        <div class="hero-buttons">
+          <a href="programme.html" class="btn btn-primary">Voir le Programme</a>
+          <a href="https://www.helloasso.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            Soutenir le Festival
+            <span class="sr-only">(ouvre dans un nouvel onglet)</span>
+          </a>
+        </div>
+      </div>
+    </section>
 
-					<!-- Logo -->
-						<h1><a href="index.html" id="logo">Arcana <em>by HTML5 UP</em></a></h1>
+    <section class="video-section">
+      <div class="container">
+        <h2 class="section-title">Découvrez Notre Festival</h2>
+        <div class="video-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            title="Vidéo de présentation du Festival de Musique Classique en Bretagne"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            loading="lazy"
+            class="video-embed"
+          ></iframe>
+        </div>
+      </div>
+    </section>
 
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li class="current"><a href="index.html">Home</a></li>
-								<li>
-									<a href="#">Dropdown</a>
-									<ul>
-										<li><a href="#">Lorem dolor</a></li>
-										<li><a href="#">Magna phasellus</a></li>
-										<li><a href="#">Etiam sed tempus</a></li>
-										<li>
-											<a href="#">Submenu</a>
-											<ul>
-												<li><a href="#">Lorem dolor</a></li>
-												<li><a href="#">Phasellus magna</a></li>
-												<li><a href="#">Magna phasellus</a></li>
-												<li><a href="#">Etiam nisl</a></li>
-												<li><a href="#">Veroeros feugiat</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Veroeros feugiat</a></li>
-									</ul>
-								</li>
-								<li><a href="left-sidebar.html">Left Sidebar</a></li>
-								<li><a href="right-sidebar.html">Right Sidebar</a></li>
-								<li><a href="two-sidebar.html">Two Sidebar</a></li>
-								<li><a href="no-sidebar.html">No Sidebar</a></li>
-							</ul>
-						</nav>
+    <section class="about-section">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-card">
+            <div class="card-icon" aria-hidden="true">🎵</div>
+            <h3 class="card-title">Concerts Gratuits</h3>
+            <p class="card-text">
+              Tous nos concerts sont à entrée libre et gratuite. La culture classique accessible à tous.
+            </p>
+          </div>
+          
+          <div class="about-card">
+            <div class="card-icon" aria-hidden="true">🌊</div>
+            <h3 class="card-title">Cadre Exceptionnel</h3>
+            <p class="card-text">
+              Des lieux uniques en Bretagne, près de la magnifique Côte de Granit Rose.
+            </p>
+          </div>
+          
+          <div class="about-card">
+            <div class="card-icon" aria-hidden="true">👥</div>
+            <h3 class="card-title">Artistes Renommés</h3>
+            <p class="card-text">
+              Des musiciens de talent pour vous offrir des moments musicaux inoubliables.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-				</div>
+    <section class="cta-section">
+      <div class="container">
+        <h2 class="cta-title">Soutenez Notre Festival</h2>
+        <p class="cta-text">
+          Votre soutien nous permet de continuer à offrir des concerts gratuits et de qualité. 
+          Faites un don via HelloAsso pour contribuer à la pérennité du festival.
+        </p>
+        <a href="https://www.helloasso.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-large">
+          Faire un Don
+          <span class="sr-only">(ouvre dans un nouvel onglet)</span>
+        </a>
+      </div>
+    </section>
+  </main>
 
-			<!-- Banner -->
-				<section id="banner">
-					<header>
-						<h2>Arcana: <em>A responsive site template freebie by <a href="http://html5up.net">HTML5 UP</a></em></h2>
-						<a href="#" class="button">Learn More</a>
-					</header>
-				</section>
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3 class="footer-title">Festival de Musique Classique</h3>
+        <p class="footer-text">Bretagne - Côte de Granit Rose</p>
+      </div>
+      
+      <div class="footer-section">
+        <h4 class="footer-heading">Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="index.html" class="footer-link">Accueil</a></li>
+          <li><a href="programme.html" class="footer-link">Programme</a></li>
+          <li><a href="artistes.html" class="footer-link">Artistes</a></li>
+          <li><a href="galerie.html" class="footer-link">Galerie</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h4 class="footer-heading">Contact</h4>
+        <address class="footer-address">
+          <p class="footer-text">
+            Email: <a href="mailto:contact@festival-bretagne.fr" class="footer-link">contact@festival-bretagne.fr</a>
+          </p>
+          <p class="footer-text">
+            Tél: <a href="tel:+33123456789" class="footer-link">01 23 45 67 89</a>
+          </p>
+        </address>
+      </div>
+      
+      <div class="footer-section">
+        <h4 class="footer-heading">Suivez-nous</h4>
+        <div class="social-links">
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Facebook (ouvre dans un nouvel onglet)">Facebook</a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram (ouvre dans un nouvel onglet)">Instagram</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p class="footer-text">© 2025 Festival de Musique Classique en Bretagne. Tous droits réservés.</p>
+      <a href="mentions-legales.html" class="footer-link">Mentions Légales</a>
+    </div>
+  </footer>
 
-			<!-- Highlights -->
-				<section class="wrapper style1">
-					<div class="container">
-						<div class="row gtr-200">
-							<section class="col-4 col-12-narrower">
-								<div class="box highlight">
-									<i class="icon solid major fa-paper-plane"></i>
-									<h3>This Is Important</h3>
-									<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-								</div>
-							</section>
-							<section class="col-4 col-12-narrower">
-								<div class="box highlight">
-									<i class="icon solid major fa-pencil-alt"></i>
-									<h3>Also Important</h3>
-									<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-								</div>
-							</section>
-							<section class="col-4 col-12-narrower">
-								<div class="box highlight">
-									<i class="icon solid major fa-wrench"></i>
-									<h3>Probably Important</h3>
-									<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-								</div>
-							</section>
-						</div>
-					</div>
-				</section>
-
-			<!-- Gigantic Heading -->
-				<section class="wrapper style2">
-					<div class="container">
-						<header class="major">
-							<h2>A gigantic heading you can use for whatever</h2>
-							<p>With a much smaller subtitle hanging out just below it</p>
-						</header>
-					</div>
-				</section>
-
-			<!-- Posts -->
-				<section class="wrapper style1">
-					<div class="container">
-						<div class="row">
-							<section class="col-6 col-12-narrower">
-								<div class="box post">
-									<a href="#" class="image left"><img src="images/pic01.jpg" alt="" /></a>
-									<div class="inner">
-										<h3>The First Thing</h3>
-										<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-									</div>
-								</div>
-							</section>
-							<section class="col-6 col-12-narrower">
-								<div class="box post">
-									<a href="#" class="image left"><img src="images/pic02.jpg" alt="" /></a>
-									<div class="inner">
-										<h3>The Second Thing</h3>
-										<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-									</div>
-								</div>
-							</section>
-						</div>
-						<div class="row">
-							<section class="col-6 col-12-narrower">
-								<div class="box post">
-									<a href="#" class="image left"><img src="images/pic03.jpg" alt="" /></a>
-									<div class="inner">
-										<h3>The Third Thing</h3>
-										<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-									</div>
-								</div>
-							</section>
-							<section class="col-6 col-12-narrower">
-								<div class="box post">
-									<a href="#" class="image left"><img src="images/pic04.jpg" alt="" /></a>
-									<div class="inner">
-										<h3>The Fourth Thing</h3>
-										<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-									</div>
-								</div>
-							</section>
-						</div>
-					</div>
-				</section>
-
-			<!-- CTA -->
-				<section id="cta" class="wrapper style3">
-					<div class="container">
-						<header>
-							<h2>Are you ready to continue your quest?</h2>
-							<a href="#" class="button">Insert Coin</a>
-						</header>
-					</div>
-				</section>
-
-			<!-- Footer -->
-				<div id="footer">
-					<div class="container">
-						<div class="row">
-							<section class="col-3 col-6-narrower col-12-mobilep">
-								<h3>Links to Stuff</h3>
-								<ul class="links">
-									<li><a href="#">Mattis et quis rutrum</a></li>
-									<li><a href="#">Suspendisse amet varius</a></li>
-									<li><a href="#">Sed et dapibus quis</a></li>
-									<li><a href="#">Rutrum accumsan dolor</a></li>
-									<li><a href="#">Mattis rutrum accumsan</a></li>
-									<li><a href="#">Suspendisse varius nibh</a></li>
-									<li><a href="#">Sed et dapibus mattis</a></li>
-								</ul>
-							</section>
-							<section class="col-3 col-6-narrower col-12-mobilep">
-								<h3>More Links to Stuff</h3>
-								<ul class="links">
-									<li><a href="#">Duis neque nisi dapibus</a></li>
-									<li><a href="#">Sed et dapibus quis</a></li>
-									<li><a href="#">Rutrum accumsan sed</a></li>
-									<li><a href="#">Mattis et sed accumsan</a></li>
-									<li><a href="#">Duis neque nisi sed</a></li>
-									<li><a href="#">Sed et dapibus quis</a></li>
-									<li><a href="#">Rutrum amet varius</a></li>
-								</ul>
-							</section>
-							<section class="col-6 col-12-narrower">
-								<h3>Get In Touch</h3>
-								<form>
-									<div class="row gtr-50">
-										<div class="col-6 col-12-mobilep">
-											<input type="text" name="name" id="name" placeholder="Name" />
-										</div>
-										<div class="col-6 col-12-mobilep">
-											<input type="email" name="email" id="email" placeholder="Email" />
-										</div>
-										<div class="col-12">
-											<textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
-										</div>
-										<div class="col-12">
-											<ul class="actions">
-												<li><input type="submit" class="button alt" value="Send Message" /></li>
-											</ul>
-										</div>
-									</div>
-								</form>
-							</section>
-						</div>
-					</div>
-
-					<!-- Icons -->
-						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-							<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							<li><a href="#" class="icon brands fa-google-plus-g"><span class="label">Google+</span></a></li>
-						</ul>
-
-					<!-- Copyright -->
-						<div class="copyright">
-							<ul class="menu">
-								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-
-				</div>
-
-		</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+  <!-- Updated JS path to js/ folder -->
+  <script src="js/script.js"></script>
+</body>
 </html>

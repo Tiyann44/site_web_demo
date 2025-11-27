@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Découvrez les artistes du Festival de Musique Classique en Bretagne">
+  <meta name="theme-color" content="#1e3a5f">
+  <title>Artistes - Festival de Musique Classique</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+  
+  <header class="header">
+    <nav class="nav-container" role="navigation" aria-label="Navigation principale">
+      <a href="index.html" class="logo" aria-label="Retour à l'accueil">
+        <span class="logo-text">Festival de Musique Classique</span>
+      </a>
+      
+      <button class="mobile-menu-button" id="mobile-menu-button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Menu de navigation">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+      
+      <ul class="nav-links" id="mobile-menu">
+        <li><a href="index.html" class="nav-link">Accueil</a></li>
+        <li><a href="programme.html" class="nav-link">Programme</a></li>
+        <li><a href="artistes.html" class="nav-link active" aria-current="page">Artistes</a></li>
+        <li><a href="galerie.html" class="nav-link">Galerie</a></li>
+        <li><a href="partenaires.html" class="nav-link">Partenaires</a></li>
+        <li><a href="mentions-legales.html" class="nav-link">Mentions Légales</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="page-header">
+      <div class="container">
+        <h1 class="page-title">Nos Artistes</h1>
+        <p class="page-subtitle">Découvrez les talents qui font vivre notre festival</p>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="container">
+        <article class="ensemble-section" aria-labelledby="ensemble-1">
+          <div class="ensemble-header">
+            <div class="ensemble-image-container">
+              <img 
+                src="images/placeholder.svg"
+                alt="L'Orchestre Symphonique de Bretagne en répétition"
+                class="ensemble-image"
+                loading="lazy"
+                onerror="this.parentElement.classList.add('image-error'); this.alt='Image non disponible';"
+              >
+            </div>
+            <div class="ensemble-description">
+              <h2 id="ensemble-1" class="ensemble-title">Orchestre Symphonique de Bretagne</h2>
+              <p class="ensemble-text">
+                Fondé en 1989, l'Orchestre Symphonique de Bretagne réunit 80 musiciens professionnels 
+                passionnés par la diffusion de la musique classique. Reconnu pour ses interprétations 
+                dynamiques du répertoire romantique et contemporain, l'orchestre se produit régulièrement 
+                dans les plus belles salles de Bretagne et participe à de nombreux festivals en France.
+              </p>
+            </div>
+          </div>
+
+          <div class="artists-grid">
+            <div class="artist-card">
+              <div class="artist-image-container">
+                <img 
+                  src="images/placeholder.svg"
+                  alt="Portrait de Jean Dupont, chef d'orchestre"
+                  class="artist-image"
+                  loading="lazy"
+                  onerror="this.parentElement.classList.add('image-error'); this.alt='Image non disponible';"
+                >
+              </div>
+              <div class="artist-info">
+                <h3 class="artist-name">Jean Dupont</h3>
+                <p class="artist-role">Chef d'orchestre</p>
+                <p class="artist-bio">
+                  Directeur musical de l'orchestre depuis 2015, Jean Dupont a étudié au Conservatoire 
+                  de Paris et dirigé de nombreux orchestres internationaux.
+                </p>
+              </div>
+            </div>
+
+            <div class="artist-card">
+              <div class="artist-image-container">
+                <img 
+                  src="images/placeholder.svg"
+                  alt="Portrait de Sophie Martin, violon solo"
+                  class="artist-image"
+                  loading="lazy"
+                  onerror="this.parentElement.classList.add('image-error'); this.alt='Image non disponible';"
+                >
+              </div>
+              <div class="artist-info">
+                <h3 class="artist-name">Sophie Martin</h3>
+                <p class="artist-role">Violon solo</p>
+                <p class="artist-bio">
+                  Violoniste virtuose, Sophie Martin a remporté plusieurs concours internationaux 
+                  et se produit régulièrement en soliste avec les plus grands orchestres.
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="ensemble-section" aria-labelledby="ensemble-2">
+          <div class="ensemble-header">
+            <div class="ensemble-image-container">
+              <img 
+                src="images/placeholder.svg"
+                alt="Le Quatuor Atlantique en concert"
+                class="ensemble-image"
+                loading="lazy"
+                onerror="this.parentElement.classList.add('image-error'); this.alt='Image non disponible';"
+              >
+            </div>
+            <div class="ensemble-description">
+              <h2 id="ensemble-2" class="ensemble-title">Quatuor Atlantique</h2>
+              <p class="ensemble-text">
+                Formé en 2010, le Quatuor Atlantique s'est rapidement imposé comme l'une des formations 
+                de musique de chambre les plus prometteuses de sa génération. Lauréat de plusieurs concours 
+                internationaux, le quatuor explore avec passion le vaste répertoire du quatuor à cordes, 
+                du classicisme viennois aux créations contemporaines.
+              </p>
+            </div>
+          </div>
+
+          <div class="artists-grid">
+            <div class="artist-card">
+              <div class="artist-image-container">
+                <img 
+                  src="images/placeholder.svg"
+                  alt="Portrait de Pierre Leblanc, premier violon"
+                  class="artist-image"
+                  loading="lazy"
+                  onerror="this.parentElement.classList.add('image-error'); this.alt='Image non disponible';"
+                >
+              </div>
+              <div class="artist-info">
+                <h3 class="artist-name">Pierre Leblanc</h3>
+                <p class="artist-role">Premier violon</p>
+                <p class="artist-bio">
+                  Fondateur du quatuor, Pierre Leblanc allie technique impeccable et sensibilité musicale 
+                  dans son jeu expressif.
+                </p>
+              </div>
+            </div>
+
+            <div class="artist-card">
+              <div class="artist-image-container">
+                <img 
+                  src="images/placeholder.svg"
+                  alt="Portrait de Thomas Bernard, second violon"
+                  class="artist-image"
+                  loading="lazy"
+                  onerror="this.parentElement.classList.add('image-error'); this.alt='Image non disponible';"
+                >
+              </div>
+              <div class="artist-info">
+                <h3 class="artist-name">Thomas Bernard</h3>
+                <p class="artist-role">Second violon</p>
+                <p class="artist-bio">
+                  Diplômé du Conservatoire de Lyon, Thomas apporte sa couleur unique et son énergie 
+                  au sein du quatuor.
+                </p>
+              </div>
+            </div>
+
+            <div class="artist-card">
+              <div class="artist-image-container">
+                <img 
+                  src="images/placeholder.svg"
+                  alt="Portrait de Claire Rousseau, alto"
+                  class="artist-image"
+                  loading="lazy"
+                  onerror="this.parentElement.classList.add('image-error'); this.alt='Image non disponible';"
+                >
+              </div>
+              <div class="artist-info">
+                <h3 class="artist-name">Claire Rousseau</h3>
+                <p class="artist-role">Alto</p>
+                <p class="artist-bio">
+                  Altiste au son chaleureux, Claire est également pédagogue reconnue au Conservatoire de Rennes.
+                </p>
+              </div>
+            </div>
+
+            <div class="artist-card">
+              <div class="artist-image-container">
+                <img 
+                  src="images/placeholder.svg"
+                  alt="Portrait de Marc Dubois, violoncelle"
+                  class="artist-image"
+                  loading="lazy"
+                  onerror="this.parentElement.classList.add('image-error'); this.alt='Image non disponible';"
+                >
+              </div>
+              <div class="artist-info">
+                <h3 class="artist-name">Marc Dubois</h3>
+                <p class="artist-role">Violoncelle</p>
+                <p class="artist-bio">
+                  Violoncelliste passionné, Marc apporte la fondation sonore du quatuor avec son jeu 
+                  profond et nuancé.
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="ensemble-section" aria-labelledby="ensemble-3">
+          <div class="ensemble-header">
+            <div class="ensemble-image-container">
+              <img 
+                src="images/placeholder.svg"
+                alt="L'Ensemble Baroque de Bretagne en costume d'époque"
+                class="ensemble-image"
+                loading="lazy"
+                onerror="this.parentElement.classList.add('image-error'); this.alt='Image non disponible';"
+              >
+            </div>
+            <div class="ensemble-description">
+              <h2 id="ensemble-3" class="ensemble-title">Ensemble Baroque de Bretagne</h2>
+              <p class="ensemble-text">
+                Spécialiste de la musique baroque sur instruments d'époque, l'Ensemble Baroque de Bretagne 
+                redonne vie aux chefs-d'œuvre des XVIIe et XVIIIe siècles. Fondé en 2005, l'ensemble se 
+                distingue par son approche historiquement informée et son enthousiasme communicatif. 
+                Les musiciens utilisent des instruments anciens et des techniques d'interprétation d'époque 
+                pour offrir une expérience musicale authentique.
+              </p>
+            </div>
+          </div>
+
+          <div class="artists-grid">
+            <div class="artist-card">
+              <div class="artist-image-container">
+                <img 
+                  src="images/placeholder.svg"
+                  alt="Portrait d'Isabelle Moreau, directrice musicale"
+                  class="artist-image"
+                  loading="lazy"
+                  onerror="this.parentElement.classList.add('image-error'); this.alt='Image non disponible';"
+                >
+              </div>
+              <div class="artist-info">
+                <h3 class="artist-name">Isabelle Moreau</h3>
+                <p class="artist-role">Directrice musicale et claveciniste</p>
+                <p class="artist-bio">
+                  Spécialiste reconnue de la musique baroque, Isabelle a étudié au Conservatoire Royal 
+                  de La Haye et dirige l'ensemble avec passion.
+                </p>
+              </div>
+            </div>
+
+            <div class="artist-card">
+              <div class="artist-image-container">
+                <img 
+                  src="images/placeholder.svg"
+                  alt="Portrait de Luc Petit, violon baroque"
+                  class="artist-image"
+                  loading="lazy"
+                  onerror="this.parentElement.classList.add('image-error'); this.alt='Image non disponible';"
+                >
+              </div>
+              <div class="artist-info">
+                <h3 class="artist-name">Luc Petit</h3>
+                <p class="artist-role">Violon baroque</p>
+                <p class="artist-bio">
+                  Violoniste sur instruments anciens, Luc se produit régulièrement avec les plus grands 
+                  ensembles baroques européens.
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3 class="footer-title">Festival de Musique Classique</h3>
+        <p class="footer-text">Bretagne - Côte de Granit Rose</p>
+      </div>
+      
+      <div class="footer-section">
+        <h4 class="footer-heading">Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="index.html" class="footer-link">Accueil</a></li>
+          <li><a href="programme.html" class="footer-link">Programme</a></li>
+          <li><a href="artistes.html" class="footer-link">Artistes</a></li>
+          <li><a href="galerie.html" class="footer-link">Galerie</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h4 class="footer-heading">Contact</h4>
+        <address class="footer-address">
+          <p class="footer-text">
+            Email: <a href="mailto:contact@festival-bretagne.fr" class="footer-link">contact@festival-bretagne.fr</a>
+          </p>
+          <p class="footer-text">
+            Tél: <a href="tel:+33123456789" class="footer-link">01 23 45 67 89</a>
+          </p>
+        </address>
+      </div>
+      
+      <div class="footer-section">
+        <h4 class="footer-heading">Suivez-nous</h4>
+        <div class="social-links">
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Facebook (ouvre dans un nouvel onglet)">Facebook</a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram (ouvre dans un nouvel onglet)">Instagram</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p class="footer-text">© 2025 Festival de Musique Classique en Bretagne. Tous droits réservés.</p>
+      <a href="mentions-legales.html" class="footer-link">Mentions Légales</a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
